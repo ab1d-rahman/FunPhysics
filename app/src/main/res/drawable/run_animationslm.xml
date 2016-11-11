@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/slm1"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm2"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm3"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm4"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm5"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm6"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm7"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm8"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm9"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm10"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm11"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm12"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm13"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm14"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm15"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm16"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm17"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm18"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm19"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm20"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm21"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm22"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm23"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm24"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm25"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm26"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm27"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm28"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/slm29"
+        android:duration="60"/>
+
+
+
+
+</animation-list>

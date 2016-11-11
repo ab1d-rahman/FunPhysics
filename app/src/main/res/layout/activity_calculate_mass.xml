@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.abid.funphysicsnewtonslawsofmotion.CalculateMassActivity"
+    android:background="@drawable/general_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Acceleration ="
+        android:id="@+id/calculateForceAcceleration"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Force ="
+        android:id="@+id/calculateForceMass"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/calculateForceAcceleration"
+        android:layout_toLeftOf="@+id/input2"
+        android:layout_toStartOf="@+id/input2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/calcualteAcceleraionButton"
+        android:onClick="onClickCalculate"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/calculateForceMass"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/calculateMassAnswer"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/calcualteAcceleraionButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/input1"
+        android:textColor="@android:color/white"
+        android:width="120dp"
+        android:layout_alignBottom="@+id/calculateForceAcceleration"
+        android:layout_toRightOf="@+id/calculateForceAcceleration"
+        android:layout_toEndOf="@+id/calculateForceAcceleration" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/input2"
+        android:textColor="@android:color/white"
+        android:width="120dp"
+        android:layout_alignBottom="@+id/calculateForceMass"
+        android:layout_toRightOf="@+id/calculateForceAcceleration"
+        android:layout_toEndOf="@+id/calculateForceAcceleration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="m/s^2"
+        android:id="@+id/textView"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/input1"
+        android:layout_toRightOf="@+id/input1"
+        android:layout_toEndOf="@+id/input1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/input2"
+        android:layout_toRightOf="@+id/input2"
+        android:layout_toEndOf="@+id/input2" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/fl1"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl2"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl3"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl4"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl5"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl6"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl7"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl8"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl9"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl10"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl11"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl12"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl13"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl14"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl15"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl16"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl17"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl18"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/fl19"
+        android:duration="60"/>
+
+</animation-list>

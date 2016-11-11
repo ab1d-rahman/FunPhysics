@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abid.funphysicsnewtonslawsofmotion" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LawsActivity" >
+        </activity>
+        <activity android:name=".FirstLawActivity" >
+        </activity>
+        <activity android:name=".FirstLawAnimation" >
+        </activity>
+        <activity android:name=".FirstLawAnimationActivity" >
+        </activity>
+        <activity android:name=".SecondLawActivity" >
+        </activity>
+        <activity android:name=".SecondLawAnimationActivity" >
+        </activity>
+        <activity android:name=".ThirdLawActivity" >
+        </activity>
+        <activity android:name=".ThirdLawAnimationActivity" >
+        </activity>
+        <activity android:name=".SecondLawMassAnimationActivity" >
+        </activity>
+        <activity android:name=".SecondLawForceAnimationActivity" >
+        </activity>
+        <activity android:name=".AboutNewtonActivity" >
+        </activity>
+        <activity android:name=".CreditsActivity" >
+        </activity>
+        <activity android:name=".CalculateAccelerationActivity" >
+        </activity>
+        <activity android:name=".CalculatorActivity" >
+        </activity>
+        <activity android:name=".CalculateForceActivity" >
+        </activity>
+        <activity android:name=".CalculateMassActivity" >
+        </activity>
+    </application>
+
+</manifest>
